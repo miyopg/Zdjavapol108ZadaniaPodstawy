@@ -10,7 +10,7 @@ public class Task5 {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Please insert first digit: ");
         int firstDigit = scanner.nextInt();
-        System.out.println("Please insert first digit: ");
+        System.out.println("Please insert second digit: ");
         int secondDigit = scanner.nextInt();
 
         if(firstDigit < secondDigit) {

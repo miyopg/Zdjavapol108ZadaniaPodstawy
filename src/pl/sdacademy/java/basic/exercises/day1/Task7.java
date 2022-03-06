@@ -6,8 +6,8 @@ public class Task7 {
     private static final String STOP_DECISION = "stop";
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-    String decision;
-     do {
+        String decision;
+        do {
         System.out.print("Podaj pierwszą liczbę: ");
         float firstNumber = scanner.nextFloat();
         scanner.nextLine();
@@ -25,7 +25,7 @@ public class Task7 {
         System.out.println("New calculation or Stop?");
         decision = scanner.nextLine();
 
-    } while (!STOP_DECISION.equals(decision));
+        } while (!STOP_DECISION.equals(decision));
 /*       char sign1 = sign.charAt(0);
          if((sign1 == '*') || (sign1 == '/') || (sign1 == '+') || (sign1 == '-')){
             System.out.print("Podaj drugą liczbę: ");
