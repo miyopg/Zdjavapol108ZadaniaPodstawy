@@ -29,8 +29,7 @@ public class Task12 {
                    continue;
                }
 
-                if((firstArrElement != null && (!firstArrElement.equals(secondArrElement)))
-                || (firstArrElement == null)) {
+                if((firstArrElement == null || (!firstArrElement.equals(secondArrElement)))) {
                     return false;
                 }
             }
