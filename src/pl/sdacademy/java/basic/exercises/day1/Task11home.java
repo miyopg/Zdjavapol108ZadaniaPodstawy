@@ -3,7 +3,7 @@ package pl.sdacademy.java.basic.exercises.day1;
 import java.util.Random;
 import java.util.Scanner;
 
-public class Tasl11home {
+public class Task11home {
     public static void main(String[] args) {
         Random random = new Random();
         Scanner scanner = new Scanner(System.in);
